@@ -24,9 +24,12 @@ The repository is organized to clearly separate the code, documentation, and aut
 
 ```
 ├── .github/                # GitHub-specific configurations
-│   ├── ISSUE_TEMPLATE/     # Templates for creating Issues
-│   └── workflows/          # CI automation with GitHub Actions
+│    ├── ISSUE_TEMPLATE/    # Templates for creating Issues
+│    └── workflows/         # CI automation with GitHub Actions 
+     │   ├── dotnet.yml     # YAML file
 ├── helix.core/             # The main .NET library project (source code)
+│    ├── Class1.cs          # Temp file
+│    ├── helix.core.csproj  # .csproj file     
 ├── .gitignore              # Files and folders to be ignored by Git
 ├── helix.sln               # The .NET Solution file
 └── README.md               # This file 🧬
