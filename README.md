@@ -3,7 +3,6 @@
 # Helix 🧬
 
 [![CI: .NET Build](https://github.com/renzzorocha/helix/actions/workflows/dotnet.yml/badge.svg)](https://github.com/renzzorocha/helix/actions)
-[![GitHub issues](https://img.shields.io/github/issues/renzzorocha/helix)](https://github.com/renzzorocha/helix/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A foundational library providing clean, performant, and well-documented implementations of core data structures and algorithms
