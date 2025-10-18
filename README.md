@@ -35,10 +35,6 @@ The repository is organized to clearly separate the code, documentation, and aut
 └── README.md               # This file 🧬
 ```
 
-## 🗺️ Current Status & Roadmap
-
-The project is currently in the **structuring and planning phase**. The entire feature backlog is managed through GitHub Issues and can be viewed in an organized way on our Roadmap board.
-
 ## 🤝 Contributing
 
 This project follows a well-defined workflow to ensure code quality and organization. If you wish to contribute:
