@@ -26,24 +26,11 @@ The repository is organized to clearly separate the code, documentation, and aut
 ├── .github/                # GitHub-specific configurations
 │    ├── ISSUE_TEMPLATE/    # Templates for creating Issues
 │    └── workflows/         # CI automation with GitHub Actions 
-     │   ├── dotnet.yml     # YAML file
-├── helix.core/             # The main .NET library project (source code)
-│    ├── Class1.cs          # Temp file
-│    ├── helix.core.csproj  # .csproj file     
+├── helix.core/             # The main .NET library project (source code)  
 ├── .gitignore              # Files and folders to be ignored by Git
 ├── helix.sln               # The .NET Solution file
 └── README.md               # This file 🧬
 ```
-
-## 🤝 Contributing
-
-This project follows a well-defined workflow to ensure code quality and organization. If you wish to contribute:
-
-1.  Check out our [Roadmap](https://github.com/renzzorocha/helix/projects/1) or the [open Issues](https://github.com/renzzorocha/helix/issues).
-2.  Create a new Issue using the templates to describe your idea or the bug you found.
-3.  Create a `branch` from `main` following the pattern: `feature/short-explanation-of-the-feature`.
-4.  Make your changes and implement the feature.
-5.  Open a **Pull Request** referencing the Issue. The Continuous Integration (CI) system will automatically check your code.
 
 ## 📄 License
 
