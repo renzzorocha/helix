@@ -27,8 +27,8 @@ The repository is organized to clearly separate the code, documentation, and aut
 │    └── workflows/         # CI automation with GitHub Actions 
 ├── helix.core/             # The main .NET library project (source code)  
 ├── .gitignore              # Files and folders to be ignored by Git
-├── helix.sln               # The .NET Solution file
 └── README.md               # This file 🧬
+├── helix.sln               # The .NET Solution file
 ```
 
 ## 📄 License
