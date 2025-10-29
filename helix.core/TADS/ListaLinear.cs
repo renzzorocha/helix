@@ -94,4 +94,14 @@ public class ListaLinear
 
         return elementos[index];
     }
+
+    public void Set(int item, int index)
+    {
+        if (index < 0 || index > Size())
+        {
+            Console.WriteLine("Erro: Index inválido");
+        }
+
+        elementos[index] = item;
+    }
 }
