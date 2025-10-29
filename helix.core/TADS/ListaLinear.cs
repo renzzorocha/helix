@@ -19,6 +19,13 @@ public class ListaLinear
     {
         return fim == inicio;
     }
+
+    public bool IsFull()
+    {
+        return fim == capacidade;
+    }
+    
+    
     
     
 }
