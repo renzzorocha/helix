@@ -14,6 +14,11 @@ public class ListaLinear
         inicio = 0;
         fim = 0;
     }
+
+    public bool IsEmpty()
+    {
+        return fim == inicio;
+    }
     
     
 }
