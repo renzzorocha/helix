@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="TADS\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Recursao\Fatorial.cs" />
+      <Compile Remove="Ordenacao\**" />
+      <Compile Remove="Pesquisas\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Ordenacao\**" />
+      <EmbeddedResource Remove="Pesquisas\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Ordenacao\**" />
+      <None Remove="Pesquisas\**" />
+    </ItemGroup>
+
+</Project>

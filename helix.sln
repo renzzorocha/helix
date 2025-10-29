@@ -1,8 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helix.core", "helix.core\helix.core.csproj", "{A958E04C-9074-452B-963E-3CF20582E28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helix.playground", "helix.playground\helix.playground.csproj", "{4B56F685-886E-4677-91FE-DD8B44B09FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A958E04C-9074-452B-963E-3CF20582E28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A958E04C-9074-452B-963E-3CF20582E28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A958E04C-9074-452B-963E-3CF20582E28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A958E04C-9074-452B-963E-3CF20582E28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B56F685-886E-4677-91FE-DD8B44B09FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B56F685-886E-4677-91FE-DD8B44B09FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B56F685-886E-4677-91FE-DD8B44B09FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B56F685-886E-4677-91FE-DD8B44B09FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
