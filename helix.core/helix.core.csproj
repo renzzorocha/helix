@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="TADS\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Remove="Recursao\Fatorial.cs" />
       <Compile Remove="Ordenacao\**" />
       <Compile Remove="Pesquisas\**" />
