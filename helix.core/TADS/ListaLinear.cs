@@ -104,4 +104,9 @@ public class ListaLinear
 
         elementos[index] = item;
     }
+
+    public void AddLast(int item)
+    {
+        Insert(item, Size());
+    }
 }
