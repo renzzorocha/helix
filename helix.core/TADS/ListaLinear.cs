@@ -77,4 +77,21 @@ public class ListaLinear
 
         return aux;
     }
+    
+    public int Get(int index)
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Erro: Lista Vazia");
+            return -1;
+        }
+
+        if (index < 0 || index > Size())
+        {
+            Console.WriteLine("Erro: Index inválido");
+            return -1;
+        }
+
+        return elementos[index];
+    }
 }
