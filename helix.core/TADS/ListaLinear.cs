@@ -34,7 +34,7 @@ public class ListaLinear
     {
         if (IsFull())
         {
-            Console.WriteLine("Erro: Lista cheia.");
+            Console.WriteLine("Erro: Lista cheia");
             return;
         }
 
@@ -51,5 +51,30 @@ public class ListaLinear
 
         elementos[index] = item;
         fim++;
+    }
+    public int Remove(int index)
+    {
+        if (IsEmpty())
+        {
+            Console.WriteLine("Erro: Lista Vazia");
+            return -1;
+        }
+
+        if (index < 0 || index > Size())
+        {
+            Console.WriteLine("Erro: Index inválido");
+            return -1;
+        }
+
+        int aux = elementos[index];
+
+        for (int i = index; i < fim; i++)
+        {
+            elementos[i] = elementos[i + 1];
+        }
+
+        fim--;
+
+        return aux;
     }
 }
