@@ -24,8 +24,9 @@ public class ListaLinear
     {
         return fim == capacidade;
     }
-    
-    
-    
-    
+
+    public int Size()
+    {
+        return fim - inicio;
+        
 }
