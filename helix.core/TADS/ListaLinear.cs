@@ -28,5 +28,28 @@ public class ListaLinear
     public int Size()
     {
         return fim - inicio;
-        
+    }
+
+    public void Insert(int item, int index)
+    {
+        if (IsFull())
+        {
+            Console.WriteLine("Erro: Lista cheia.");
+            return;
+        }
+
+        if (index < 0 || index > Size())
+        {
+            Console.WriteLine("Erro: Index inválido");
+            return;
+        }
+
+        for (int i = fim; i > index; i--)
+        {
+            elementos[i] = elementos[i - 1];
+        }
+
+        elementos[index] = item;
+        fim++;
+    }
 }
