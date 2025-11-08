@@ -22,13 +22,7 @@ Helix
 ├── src                           # Código-fonte
 │   ├── Helix.Core                # Biblioteca de classes
 │   │   ├── Algorithms            # Algoritmos
-│   │   │   ├── Sorting           # Ordenação
-│   │   │   │   └── BubbleSort.cs
-│   │   │   └── Searching         # Busca
-│   │   │       └── BinarySearch.cs
 │   │   ├── DataStructures        # Estruturas de dados
-│   │   │   ├── Stack.cs
-│   │   │   └── Queue.cs
 │   │   └── Helix.Core.csproj
 │   │
 │   └── Helix.Playground          # Projeto console para testes
@@ -36,10 +30,6 @@ Helix
 │       └── Helix.Playground.csproj
 │
 └── docs                          # Documentação em Markdown
-  ├── README.md                 # Índice da documentação
-  ├── algorithms.md             # Detalhes de algoritmos
-  ├── data_structures.md        # Detalhes de estruturas de dados
-  └── recursion.md              # Conceitos de recursão
 ```
 
 ## 🚀 Tecnologias
