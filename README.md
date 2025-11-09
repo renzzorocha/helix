@@ -17,8 +17,6 @@ O repositório funciona como um _playground_ educacional: cada implementação v
 
 ```text
 Helix
-├── docs                          # Documentação em Markdown
-    ├── README.md  
 ├── src                           # Código-fonte
 │   ├── Helix.Core                # Biblioteca de classes
 │   │   ├── Properties            # Propriedades do Projeto
