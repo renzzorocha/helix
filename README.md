@@ -17,19 +17,21 @@ O repositório funciona como um _playground_ educacional: cada implementação v
 
 ```text
 Helix
-├── Helix.sln                     # Solução principal
-│
+├── docs                          # Documentação em Markdown
+    ├── README.md  
 ├── src                           # Código-fonte
 │   ├── Helix.Core                # Biblioteca de classes
-│   │   ├── Algorithms            # Algoritmos
-│   │   ├── DataStructures        # Estruturas de dados
+│   │   ├── Properties            # Propriedades do Projeto
 │   │   └── Helix.Core.csproj
 │   │
 │   └── Helix.Playground          # Projeto console para testes
-│       ├── Program.cs
-│       └── Helix.Playground.csproj
-│
-└── docs                          # Documentação em Markdown
+│       ├── Helix.Playground.csproj
+│       └── Program.cs            
+├── .gitattributes                # Diz ao Git como tratar cada arquivo do repositório (EOL, texto/binário, diff/merge, filtros, exportação).                       
+├── Helix.sln                     # Solução principal
+├── LICENSE.txt                   # MIT License
+├── README.md                     # Documentação em Markdown
+
 ```
 
 ## 🚀 Tecnologias
