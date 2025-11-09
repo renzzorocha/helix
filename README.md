@@ -8,12 +8,14 @@
 </p>
 
 ## 📖 Visão Geral
-**Helix** é uma biblioteca em **C# / .NET 9** criada para estudar e catalogar algoritmos e estruturas de dados.  
-O repositório funciona como um _playground_ educacional: cada implementação vem acompanhada de exemplos de uso e documentação em Markdown para facilitar o aprendizado contínuo.
+- **Helix** é uma biblioteca em **C# / .NET 9** criada para estudar e catalogar algoritmos e estruturas de dados. <br> 
+- O repositório funciona como um _playground_ educacional: cada implementação vem acompanhada de exemplos de uso e documentação em Markdown para facilitar o aprendizado contínuo. <br> 
+- Todo o material teórico está na seção "Wiki" do repositório. <br>
+- Todo código feito está na seção "Code" do repositório. <br>
 
 ---
 
-## 📂 Estrutura de Pastas
+## 📂 Estrutura de Pastas - Code
 
 ```text
 Helix
@@ -29,14 +31,21 @@ Helix
 ├── Helix.sln                     # Solução principal
 ├── LICENSE.txt                   # MIT License
 ├── README.md                     # Documentação em Markdown
+```
+---
 
+## 📂 Estrutura de Pastas - Wiki
+
+```text
+Helix.Wiki
+├── Recursividade
+          ├── Recursividade.md               # Documentação sobre Recursividade
 ```
 
 ## 🚀 Tecnologias
 - **C# 10**
 - **.NET 9 SDK**
-- **Visual Studio**
-- **Markdown** para documentação
+- **Markdown** para Documentação
 
 ---
 
@@ -53,12 +62,6 @@ dotnet restore
 # 3. Execute o playground
 dotnet run --project src/Helix.Playground
 ```
-
----
-
-## 🗒️ Documentação
-Todo o material teórico está em [`/docs`](docs).  
-Sinta-se à vontade para adicionar anotações, diagramas ou links úteis.
 
 ---
 
@@ -81,4 +84,4 @@ git push origin feature/minha-feature
 ---
 
 ## 📜 Licença
-Distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+Distribuído sob a licença MIT. Consulte o arquivo LICENSE.txt para mais informações.
