@@ -1,6 +1,6 @@
 ﻿namespace Helix.Core;
 
-public class Class1
+public class Recursividade
 {
     
 }
