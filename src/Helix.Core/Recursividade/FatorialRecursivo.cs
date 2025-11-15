@@ -1,6 +1,6 @@
 ﻿namespace Helix.Core.Recursividade
 {
-    internal class FatorialRecursivo
+    public class FatorialRecursivo
     {
         public static int Fatorial(int n)
         {
